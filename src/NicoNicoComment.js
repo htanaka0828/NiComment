@@ -94,6 +94,10 @@ NicoNicoComment.prototype._viewComment = function() {
       this.commentArr[i].elm.getBoundingClientRect().left <= 0 &&
       this.commentArr[i].elm.getBoundingClientRect().right >= 0) {
       this.attachComment(this.commentArr[i].body, this.commentArr[i].style);
+      // 送った要素は削除
+      this.commentArr.splice(i, 1);
+      // indexを更新
+      l = this.commentArr.length;
     }
   }
 };
