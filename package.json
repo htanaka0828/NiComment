@@ -1,0 +1,15 @@
+{
+  "name": "nicoment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Sorry: no test specified\" && exit 0"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-closure-compiler": "~0.4.0"
+  }
+}
